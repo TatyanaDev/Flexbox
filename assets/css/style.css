@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: lightyellow;
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+  margin: 0;
+}
+
+.container {
+  border: 10px solid black;
+  min-height: 400px;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.item {
+  padding: 10px 20px;
+  background-color: teal;
+  border: 5px solid red;
+  font-size: 32px;
+  color: white;
+}
